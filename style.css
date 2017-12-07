@@ -1,0 +1,206 @@
+body {
+  background-color:#3D5E73;
+  
+  font-family: "Lucida Sans Unicode";
+
+}
+
+hr{
+  width: 30%;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.name{
+   opacity: 0.0;
+      
+}
+.buttonletter{
+      font-size: 17px;
+}
+.straighten{
+  float: right;
+  margin-left: 40px;
+}
+
+.fadein{
+  opacity: 1.0;;
+  transition: all 1000ms ease-out;
+}
+
+
+.icons{
+    display:inline-block;
+}
+
+.progress{
+/*     display:inline-flex;  */
+    background-color:#808080;
+    margin: 0 auto;
+/*   justify-content: center; */
+}
+.images{
+  float: right;
+  
+}
+.imagetwo{
+  margin-top: 80px;
+}
+#studyprogress{
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+}
+
+.books{
+  margin: 0;
+ 
+  margin-top: 250px;
+  margin-left: 25px;
+ 
+
+
+}
+
+/*    padding: 0 20px 20px 0; */
+
+
+h1 {
+  color: #70C1B3;
+  width: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size:60px;
+}
+.btn{
+ width:260px;
+}
+img {
+  display: block;
+  max-width: 190px;
+  max-height: 190px;
+  width: auto;
+  height: auto;
+  margin: auto;
+
+}
+.blacktext{
+   color: black;
+     
+  
+}
+.pnext{
+   display:inline-block;
+}
+li{
+  font-size: 18px;
+}
+h2{
+  color: #70C1B3;
+}
+p{
+  color:#70C1B3;
+  font-size: 18px;
+}
+.container {
+/*   position: relative; */
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-fluid1{
+  padding-top: 100px;
+ 
+  padding-bottom: 250px;
+
+}
+
+.container-fluid2{
+  padding-top: 100px;
+  
+  padding-bottom: 250px;
+
+}
+
+.center {
+  text-align: center;
+}
+
+.pposition{
+   margin-left: 50px;
+   margin-right: 5px;
+   width: 15em
+}
+
+.navbar-inner {
+    background:transparent;
+    border: none;
+    transition: background-color .5s ease 0s;
+}
+
+
+.color-me{
+  color: #F3FFBD;
+}
+
+.navbar.navbar-inner li a{
+  color: #F3FFBD;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+ 
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=submit] {
+    background-color: #70C1B3;
+    color: #F3FFBD;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
